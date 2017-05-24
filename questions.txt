@@ -1,0 +1,7 @@
+0.  The largest WORD that can be found ( largest length of the word)
+1.  get resource usage
+2.  16
+3.  Because C requires passing structs by reference in functions, because by value, the size would be too big
+4.  So, in the for loop we get each word untill EOF(end of file). YEaaaah, I finally understood. So, in the for loop we get the next character untill EOF.                                           Firstly, we check if the character is alphabetical or apostrophes, then we write this character into a char-array and increase an index (in order to be able to write next character). Check the length of the current word. if (index > length) then go through the rest of the word ( ignore this word)                                             Secondly, we ignore the word, which contains a digit. If the character is digit, go through the rest of the word ( untill \0)              Finally, if the 2 IF-statements dont work, it means the end of the word. if the word from char-array is misspelled, print it.    
+5.  To be able to check each character. For example, digits are not allowed.
+6.  To ensure characters can't be modified during execution. 
